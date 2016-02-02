@@ -1,0 +1,14 @@
+bind h focus left 
+bind l focus right 
+bind j focus down
+bind k focus up 
+
+
+hardstatus alwayslastline
+hardstatus string "%{= kG}[%{G}%H%{= r}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d%{W} %c:%s%{g}]"
+
+bindkey -k k2 screen
+bindkey -k k9 detach
+bindkey -k k3 prev       #F3 to previous
+bindkey -k k4 next       #F4 to next
+bindkey -k k8 title      #f8 to rename a window
